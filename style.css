@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main {
+    background: url(./background/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 15px solid #233142;
+    border-style: groove;
+    border-radius: 20%;
+    padding-inline: 30px;
+    align-items: center;
+}
+
+/* <!-- TOP --> */
+
+.scoreboard {
+    display: flex;
+    padding: 30px;
+    font-family: arial;
+    border-radius: 10px;
+}
+
+.score1 {
+    margin-inline: 5px;
+    color: #FF5959;
+}
+
+.score2 {
+    margin-inline: 5px;
+    color: #4F9DA6;
+}
+
+/* <!-- PLAYING TO --> */
+
+.pt {
+    display: flex;
+    font-size: large;
+    font-family: arial;
+    color: #FACF5A;
+}
+
+.max_score {
+    margin-left: 5px;
+}
+
+/* <!-- INPUT --> */
+
+.input {
+    margin-block: 15px;
+}
+
+input {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-family: Codystar;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: xx-large;
+    border-radius: 10px;
+    background: #703db3;
+    color: white;
+}
+
+/* <!-- BUTTONS --> */
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    margin-block: 10px;
+    margin-inline: 5px;
+    font-family: Bangers;
+    font-size: x-large;
+    border: 8px solid #FACF5A;
+    border-radius: 10px;
+    border-style: ridge;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.P1 {
+    background-color: #FF5959;
+}
+
+.P2 {
+    background-color: #4F9DA6;
+}
